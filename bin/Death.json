@@ -1,0 +1,299 @@
+{
+    "contractName": "Death",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol\":\"Death\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol\":{\"keccak256\":\"0x485f6a3727b6e7a78fbea893d2fd5cbbf8510d483c8885a27c82a8a62da2c1bb\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://473ac8e1c3740d9a8d242b6d0afb23ccb26800d43ff00f7cf62debffd47fc997\",\"dweb:/ipfs/QmWbwFojzgTaZhv7Yobn7sywHhtaiyJQ4YdtkN3HMxFjYT\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b9ca5d7ddb7ba0c4a5602c518c26a21f775d6c42975ae1e24eac861b4b16eca664736f6c634300080a0033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220b9ca5d7ddb7ba0c4a5602c518c26a21f775d6c42975ae1e24eac861b4b16eca664736f6c634300080a0033",
+    "sourceMap": "67:102:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "67:102:0:-:0;;;;;",
+    "sourcePath": "c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.10+commit.fc410830"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol",
+        "exportedSymbols": {
+            "Death": [
+                13
+            ],
+            "PdfToHash": [
+                22
+            ]
+        },
+        "id": 23,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Death",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "Death",
+                "nameLocation": "76:5:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "owner",
+                        "nameLocation": "101:5:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "93:13:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "93:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "140:22:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 9,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 6,
+                                            "name": "owner",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "142:5:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "expression": {
+                                                "id": 7,
+                                                "name": "msg",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 4294967281,
+                                                "src": "150:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_magic_message",
+                                                    "typeString": "msg"
+                                                }
+                                            },
+                                            "id": 8,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberName": "sender",
+                                            "nodeType": "MemberAccess",
+                                            "src": "150:10:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "src": "142:18:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address",
+                                            "typeString": "address"
+                                        }
+                                    },
+                                    "id": 10,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "142:18:0"
+                                }
+                            ]
+                        },
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "death",
+                        "nameLocation": "124:5:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "129:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "140:0:0"
+                        },
+                        "scope": 13,
+                        "src": "115:47:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "private"
+                    }
+                ],
+                "scope": 23,
+                "src": "67:102:0",
+                "usedErrors": []
+            },
+            {
+                "abstract": false,
+                "baseContracts": [
+                    {
+                        "baseName": {
+                            "id": 14,
+                            "name": "Death",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 13,
+                            "src": "195:5:0"
+                        },
+                        "id": 15,
+                        "nodeType": "InheritanceSpecifier",
+                        "src": "195:5:0"
+                    }
+                ],
+                "canonicalName": "PdfToHash",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 22,
+                "linearizedBaseContracts": [
+                    22,
+                    13
+                ],
+                "name": "PdfToHash",
+                "nameLocation": "182:9:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "d294cb0f",
+                        "id": 19,
+                        "mutability": "mutable",
+                        "name": "accountBalance",
+                        "nameLocation": "245:14:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 22,
+                        "src": "212:47:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                            "typeString": "mapping(address => uint256)"
+                        },
+                        "typeName": {
+                            "id": 18,
+                            "keyType": {
+                                "id": 16,
+                                "name": "address",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "221:7:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                }
+                            },
+                            "nodeType": "Mapping",
+                            "src": "212:25:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                                "typeString": "mapping(address => uint256)"
+                            },
+                            "valueType": {
+                                "id": 17,
+                                "name": "uint",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "232:4:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                }
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "id": 21,
+                        "mutability": "mutable",
+                        "name": "code",
+                        "nameLocation": "274:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 22,
+                        "src": "266:12:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 20,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "266:7:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "internal"
+                    }
+                ],
+                "scope": 23,
+                "src": "173:119:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:253:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        },
+        "internal": {
+            "death()": "infinite"
+        }
+    }
+}

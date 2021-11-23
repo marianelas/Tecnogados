@@ -1,0 +1,66 @@
+{
+    "contractName": "WrapPdf",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol\":\"WrapPdf\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol\":{\"keccak256\":\"0xecff57d3d4dbd9d4f762c1f0043232a2650f7c7054fcf5250edacc18e67543a2\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://8a4326330e2a8493f062ce14f453cb8fec02721b53c62c48a1bac2c532ebcf26\",\"dweb:/ipfs/QmVuwQn75stUZmwD7TDL1sRHcXxCchQqDhYT7WZH67j2dW\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212207dd34a9495e2246312157783748ad33c1dcc83c3adba0434b4c58d969644541264736f6c634300080a0033",
+    "deployedBytecode": "6080604052600080fdfea26469706673582212207dd34a9495e2246312157783748ad33c1dcc83c3adba0434b4c58d969644541264736f6c634300080a0033",
+    "sourceMap": "67:31:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "67:31:0:-:0;;;;;",
+    "sourcePath": "c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.10+commit.fc410830"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Marianelas/Desktop/Tecnogados/pdfToHash.sol",
+        "exportedSymbols": {
+            "WrapPdf": [
+                2
+            ]
+        },
+        "id": 3,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "WrapPdf",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 2,
+                "linearizedBaseContracts": [
+                    2
+                ],
+                "name": "WrapPdf",
+                "nameLocation": "76:7:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [],
+                "scope": 3,
+                "src": "67:31:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:63:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}

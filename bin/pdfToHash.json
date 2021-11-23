@@ -1,0 +1,623 @@
+{
+    "contractName": "pdfToHash",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_date",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_hexchain",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_bloque",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createToHash",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "envolt",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "date",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "hexchain",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "bloque",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_date\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_hexchain\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_bloque\",\"type\":\"uint256\"}],\"name\":\"createToHash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"envolt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"date\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"hexchain\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"bloque\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Marianelas/Desktop/TECNOGADOS/pdfToHash.sol\":\"pdfToHash\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Marianelas/Desktop/TECNOGADOS/pdfToHash.sol\":{\"keccak256\":\"0x63fd607c7988ad109ccc2464c51ea5c5fd2fcfd945efa86a807ab5d430ff469f\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://e305ec3334e36886b35ba1f568bfffe270dd8ebfa6b8b6858e005f87dc625e80\",\"dweb:/ipfs/QmdMjUTeK64PqjKKEY4W6TGBPNS4kAALegGPpZDTuJ7wzN\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b50610443806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80632aa6fe241461003b5780636a4b7b0b14610050575b600080fd5b61004e610049366004610290565b61007b565b005b61006361005e366004610354565b610123565b6040516100729392919061036d565b60405180910390f35b506040805160608101825242808252602080830185815243948401859052600180548082018255600091909152845160039091027fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf68101918255915180519498509093610111937fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf79093019291909101906101e1565b50604082015181600201555050505050565b6001818154811061013357600080fd5b60009182526020909120600390910201805460018201805491935090610158906103d2565b80601f0160208091040260200160405190810160405280929190818152602001828054610184906103d2565b80156101d15780601f106101a6576101008083540402835291602001916101d1565b820191906000526020600020905b8154815290600101906020018083116101b457829003601f168201915b5050505050908060020154905083565b8280546101ed906103d2565b90600052602060002090601f01602090048101928261020f5760008555610255565b82601f1061022857805160ff1916838001178555610255565b82800160010185558215610255579182015b8281111561025557825182559160200191906001019061023a565b50610261929150610265565b5090565b5b808211156102615760008155600101610266565b634e487b7160e01b600052604160045260246000fd5b6000806000606084860312156102a557600080fd5b83359250602084013567ffffffffffffffff808211156102c457600080fd5b818601915086601f8301126102d857600080fd5b8135818111156102ea576102ea61027a565b604051601f8201601f19908116603f011681019083821181831017156103125761031261027a565b8160405282815289602084870101111561032b57600080fd5b826020860160208301376000602084830101528096505050505050604084013590509250925092565b60006020828403121561036657600080fd5b5035919050565b83815260006020606081840152845180606085015260005b818110156103a157868101830151858201608001528201610385565b818111156103b3576000608083870101525b5060408401949094525050601f91909101601f19160160800192915050565b600181811c908216806103e657607f821691505b6020821081141561040757634e487b7160e01b600052602260045260246000fd5b5091905056fea264697066735822122099a3f3b2f537acce7fa7ad062d6d6b0c9fb16b3e9ea62a09343e5cdfee15c6b764736f6c634300080a0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c80632aa6fe241461003b5780636a4b7b0b14610050575b600080fd5b61004e610049366004610290565b61007b565b005b61006361005e366004610354565b610123565b6040516100729392919061036d565b60405180910390f35b506040805160608101825242808252602080830185815243948401859052600180548082018255600091909152845160039091027fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf68101918255915180519498509093610111937fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf79093019291909101906101e1565b50604082015181600201555050505050565b6001818154811061013357600080fd5b60009182526020909120600390910201805460018201805491935090610158906103d2565b80601f0160208091040260200160405190810160405280929190818152602001828054610184906103d2565b80156101d15780601f106101a6576101008083540402835291602001916101d1565b820191906000526020600020905b8154815290600101906020018083116101b457829003601f168201915b5050505050908060020154905083565b8280546101ed906103d2565b90600052602060002090601f01602090048101928261020f5760008555610255565b82601f1061022857805160ff1916838001178555610255565b82800160010185558215610255579182015b8281111561025557825182559160200191906001019061023a565b50610261929150610265565b5090565b5b808211156102615760008155600101610266565b634e487b7160e01b600052604160045260246000fd5b6000806000606084860312156102a557600080fd5b83359250602084013567ffffffffffffffff808211156102c457600080fd5b818601915086601f8301126102d857600080fd5b8135818111156102ea576102ea61027a565b604051601f8201601f19908116603f011681019083821181831017156103125761031261027a565b8160405282815289602084870101111561032b57600080fd5b826020860160208301376000602084830101528096505050505050604084013590509250925092565b60006020828403121561036657600080fd5b5035919050565b83815260006020606081840152845180606085015260005b818110156103a157868101830151858201608001528201610385565b818111156103b3576000608083870101525b5060408401949094525050601f91909101601f19160160800192915050565b600181811c908216806103e657607f821691505b6020821081141561040757634e487b7160e01b600052602260045260246000fd5b5091905056fea264697066735822122099a3f3b2f537acce7fa7ad062d6d6b0c9fb16b3e9ea62a09343e5cdfee15c6b764736f6c634300080a0033",
+    "sourceMap": "67:383:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "67:383:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;252:193;;;;;;:::i;:::-;;:::i;:::-;;223:20;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;;:::i;:::-;;;;;;;;252:193;-1:-1:-1;360:64:0;;;;;;;;373:15;360:64;;;;;;;;;;411:12;360:64;;;;;;348:6;:77;;;;;;;-1:-1:-1;348:77:0;;;;;;;;;;;;;;;;;;;;373:15;;-1:-1:-1;348:77:0;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;252:193;;;:::o;223:20::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;223:20:0;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;-1:-1:-1:-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;14:127:1;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:1058;233:6;241;249;302:2;290:9;281:7;277:23;273:32;270:52;;;318:1;315;308:12;270:52;354:9;341:23;331:33;;415:2;404:9;400:18;387:32;438:18;479:2;471:6;468:14;465:34;;;495:1;492;485:12;465:34;533:6;522:9;518:22;508:32;;578:7;571:4;567:2;563:13;559:27;549:55;;600:1;597;590:12;549:55;636:2;623:16;658:2;654;651:10;648:36;;;664:18;;:::i;:::-;739:2;733:9;707:2;793:13;;-1:-1:-1;;789:22:1;;;813:2;785:31;781:40;769:53;;;837:18;;;857:22;;;834:46;831:72;;;883:18;;:::i;:::-;923:10;919:2;912:22;958:2;950:6;943:18;998:7;993:2;988;984;980:11;976:20;973:33;970:53;;;1019:1;1016;1009:12;970:53;1075:2;1070;1066;1062:11;1057:2;1049:6;1045:15;1032:46;1120:1;1115:2;1110;1102:6;1098:15;1094:24;1087:35;1141:6;1131:16;;;;;;;1194:2;1183:9;1179:18;1166:32;1156:42;;146:1058;;;;;:::o;1209:180::-;1268:6;1321:2;1309:9;1300:7;1296:23;1292:32;1289:52;;;1337:1;1334;1327:12;1289:52;-1:-1:-1;1360:23:1;;1209:180;-1:-1:-1;1209:180:1:o;1394:742::-;1599:6;1588:9;1581:25;1562:4;1625:2;1663;1658;1647:9;1643:18;1636:30;1695:6;1689:13;1738:6;1733:2;1722:9;1718:18;1711:34;1763:1;1773:141;1787:6;1784:1;1781:13;1773:141;;;1883:14;;;1879:23;;1873:30;1848:17;;;1867:3;1844:27;1837:67;1802:10;;1773:141;;;1932:6;1929:1;1926:13;1923:92;;;2003:1;1997:3;1988:6;1977:9;1973:22;1969:32;1962:43;1923:92;-1:-1:-1;2118:2:1;2103:18;;2096:34;;;;-1:-1:-1;;2076:2:1;2055:15;;;;-1:-1:-1;;2051:29:1;2036:45;2083:3;2032:55;;1394:742;-1:-1:-1;;1394:742:1:o;2141:380::-;2220:1;2216:12;;;;2263;;;2284:61;;2338:4;2330:6;2326:17;2316:27;;2284:61;2391:2;2383:6;2380:14;2360:18;2357:38;2354:161;;;2437:10;2432:3;2428:20;2425:1;2418:31;2472:4;2469:1;2462:15;2500:4;2497:1;2490:15;2354:161;;2141:380;;;:::o",
+    "sourcePath": "c:/Users/Marianelas/Desktop/TECNOGADOS/pdfToHash.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.10+commit.fc410830"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Marianelas/Desktop/TECNOGADOS/pdfToHash.sol",
+        "exportedSymbols": {
+            "pdfToHash": [
+                41
+            ]
+        },
+        "id": 42,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".10"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "pdfToHash",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 41,
+                "linearizedBaseContracts": [
+                    41
+                ],
+                "name": "pdfToHash",
+                "nameLocation": "76:9:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "propietario",
+                        "nameLocation": "103:11:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 41,
+                        "src": "95:19:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "95:7:0",
+                            "stateMutability": "nonpayable",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "canonicalName": "pdfToHash.Wrap",
+                        "id": 10,
+                        "members": [
+                            {
+                                "constant": false,
+                                "id": 5,
+                                "mutability": "mutable",
+                                "name": "date",
+                                "nameLocation": "153:4:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "148:9:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 4,
+                                    "name": "uint",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "148:4:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 7,
+                                "mutability": "mutable",
+                                "name": "hexchain",
+                                "nameLocation": "175:8:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "168:15:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage_ptr",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 6,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "168:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 9,
+                                "mutability": "mutable",
+                                "name": "bloque",
+                                "nameLocation": "199:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "194:11:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 8,
+                                    "name": "uint",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "194:4:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "visibility": "internal"
+                            }
+                        ],
+                        "name": "Wrap",
+                        "nameLocation": "130:4:0",
+                        "nodeType": "StructDefinition",
+                        "scope": 41,
+                        "src": "123:92:0",
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "6a4b7b0b",
+                        "id": 14,
+                        "mutability": "mutable",
+                        "name": "envolt",
+                        "nameLocation": "237:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 41,
+                        "src": "223:20:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_struct$_Wrap_$10_storage_$dyn_storage",
+                            "typeString": "struct pdfToHash.Wrap[]"
+                        },
+                        "typeName": {
+                            "baseType": {
+                                "id": 12,
+                                "nodeType": "UserDefinedTypeName",
+                                "pathNode": {
+                                    "id": 11,
+                                    "name": "Wrap",
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 10,
+                                    "src": "223:4:0"
+                                },
+                                "referencedDeclaration": 10,
+                                "src": "223:4:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_Wrap_$10_storage_ptr",
+                                    "typeString": "struct pdfToHash.Wrap"
+                                }
+                            },
+                            "id": 13,
+                            "nodeType": "ArrayTypeName",
+                            "src": "223:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_struct$_Wrap_$10_storage_$dyn_storage_ptr",
+                                "typeString": "struct pdfToHash.Wrap[]"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 39,
+                            "nodeType": "Block",
+                            "src": "333:112:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "arguments": [
+                                                    {
+                                                        "id": 30,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": false,
+                                                        "lValueRequested": false,
+                                                        "leftHandSide": {
+                                                            "id": 27,
+                                                            "name": "_date",
+                                                            "nodeType": "Identifier",
+                                                            "overloadedDeclarations": [],
+                                                            "referencedDeclaration": 16,
+                                                            "src": "365:5:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_uint256",
+                                                                "typeString": "uint256"
+                                                            }
+                                                        },
+                                                        "nodeType": "Assignment",
+                                                        "operator": "=",
+                                                        "rightHandSide": {
+                                                            "expression": {
+                                                                "id": 28,
+                                                                "name": "block",
+                                                                "nodeType": "Identifier",
+                                                                "overloadedDeclarations": [],
+                                                                "referencedDeclaration": 4294967292,
+                                                                "src": "373:5:0",
+                                                                "typeDescriptions": {
+                                                                    "typeIdentifier": "t_magic_block",
+                                                                    "typeString": "block"
+                                                                }
+                                                            },
+                                                            "id": 29,
+                                                            "isConstant": false,
+                                                            "isLValue": false,
+                                                            "isPure": false,
+                                                            "lValueRequested": false,
+                                                            "memberName": "timestamp",
+                                                            "nodeType": "MemberAccess",
+                                                            "src": "373:15:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_uint256",
+                                                                "typeString": "uint256"
+                                                            }
+                                                        },
+                                                        "src": "365:23:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": 31,
+                                                        "name": "_hexchain",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 18,
+                                                        "src": "390:9:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_string_memory_ptr",
+                                                            "typeString": "string memory"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": 35,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": false,
+                                                        "lValueRequested": false,
+                                                        "leftHandSide": {
+                                                            "id": 32,
+                                                            "name": "_bloque",
+                                                            "nodeType": "Identifier",
+                                                            "overloadedDeclarations": [],
+                                                            "referencedDeclaration": 20,
+                                                            "src": "401:7:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_uint256",
+                                                                "typeString": "uint256"
+                                                            }
+                                                        },
+                                                        "nodeType": "Assignment",
+                                                        "operator": "=",
+                                                        "rightHandSide": {
+                                                            "expression": {
+                                                                "id": 33,
+                                                                "name": "block",
+                                                                "nodeType": "Identifier",
+                                                                "overloadedDeclarations": [],
+                                                                "referencedDeclaration": 4294967292,
+                                                                "src": "411:5:0",
+                                                                "typeDescriptions": {
+                                                                    "typeIdentifier": "t_magic_block",
+                                                                    "typeString": "block"
+                                                                }
+                                                            },
+                                                            "id": 34,
+                                                            "isConstant": false,
+                                                            "isLValue": false,
+                                                            "isPure": false,
+                                                            "lValueRequested": false,
+                                                            "memberName": "number",
+                                                            "nodeType": "MemberAccess",
+                                                            "src": "411:12:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_uint256",
+                                                                "typeString": "uint256"
+                                                            }
+                                                        },
+                                                        "src": "401:22:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                        }
+                                                    }
+                                                ],
+                                                "expression": {
+                                                    "argumentTypes": [
+                                                        {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                        },
+                                                        {
+                                                            "typeIdentifier": "t_string_memory_ptr",
+                                                            "typeString": "string memory"
+                                                        },
+                                                        {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                        }
+                                                    ],
+                                                    "id": 26,
+                                                    "name": "Wrap",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 10,
+                                                    "src": "360:4:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_type$_t_struct$_Wrap_$10_storage_ptr_$",
+                                                        "typeString": "type(struct pdfToHash.Wrap storage pointer)"
+                                                    }
+                                                },
+                                                "id": 36,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "kind": "structConstructorCall",
+                                                "lValueRequested": false,
+                                                "names": [],
+                                                "nodeType": "FunctionCall",
+                                                "src": "360:64:0",
+                                                "tryCall": false,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_struct$_Wrap_$10_memory_ptr",
+                                                    "typeString": "struct pdfToHash.Wrap memory"
+                                                }
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_struct$_Wrap_$10_memory_ptr",
+                                                    "typeString": "struct pdfToHash.Wrap memory"
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 23,
+                                                "name": "envolt",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 14,
+                                                "src": "348:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_array$_t_struct$_Wrap_$10_storage_$dyn_storage",
+                                                    "typeString": "struct pdfToHash.Wrap storage ref[] storage ref"
+                                                }
+                                            },
+                                            "id": 25,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberName": "push",
+                                            "nodeType": "MemberAccess",
+                                            "src": "348:11:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Wrap_$10_storage_$dyn_storage_ptr_$_t_struct$_Wrap_$10_storage_$returns$__$bound_to$_t_array$_t_struct$_Wrap_$10_storage_$dyn_storage_ptr_$",
+                                                "typeString": "function (struct pdfToHash.Wrap storage ref[] storage pointer,struct pdfToHash.Wrap storage ref)"
+                                            }
+                                        },
+                                        "id": 37,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "348:77:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 38,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "348:77:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "2aa6fe24",
+                        "id": 40,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "createToHash",
+                        "nameLocation": "261:12:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 21,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 16,
+                                    "mutability": "mutable",
+                                    "name": "_date",
+                                    "nameLocation": "280:5:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 40,
+                                    "src": "275:10:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 15,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "275:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 18,
+                                    "mutability": "mutable",
+                                    "name": "_hexchain",
+                                    "nameLocation": "301:9:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 40,
+                                    "src": "287:23:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 17,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "287:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                },
+                                {
+                                    "constant": false,
+                                    "id": 20,
+                                    "mutability": "mutable",
+                                    "name": "_bloque",
+                                    "nameLocation": "317:7:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 40,
+                                    "src": "312:12:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 19,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "312:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "274:51:0"
+                        },
+                        "returnParameters": {
+                            "id": 22,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "333:0:0"
+                        },
+                        "scope": 41,
+                        "src": "252:193:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 42,
+                "src": "67:383:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:415:0"
+    },
+    "functionHashes": {
+        "createToHash(uint256,string,uint256)": "2aa6fe24",
+        "envolt(uint256)": "6a4b7b0b"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "218200",
+            "executionCost": "263",
+            "totalCost": "218463"
+        },
+        "external": {
+            "createToHash(uint256,string,uint256)": "infinite",
+            "envolt(uint256)": "infinite"
+        }
+    }
+}
